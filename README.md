@@ -61,6 +61,17 @@ openai.api_key = "YOUR_API_KEY_HERE"
 
 ## How to Run
 
+### Preparing Folders for Testing
+
+1. Create a folder called `files_to_organize/` in your repo root:
+
+ai-file-organizer/
+└── files_to_organize/
+
+2. Place some example files inside (e.g., `example.txt`, `image.png`, `invoice.pdf`) to test the script.  
+3. The program will automatically create an `organized_files/` folder when it runs and move files into categories like `School`, `Finance`, `Images`, `Code`, `Personal`, or `Other`.  
+4. No need to include `organized_files/` in your repo — it is generated dynamically.
+
 **1️⃣ Dry-run (preview moves):**
 
 ```bash
