@@ -21,5 +21,5 @@ def organize_files(dry_run=True):
 
 if __name__ == "__main__":
     print("Starting AI File Organizer...")
-    organize_files(dry_run=True)  # Start with dry-run to check
+    organize_files(dry_run=False)  # Dry run disabled — actually move files
     print("Done!")
